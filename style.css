@@ -1,0 +1,69 @@
+:root{
+    --primary: #35fd23;
+    --secondary: #f09f36;
+    --light: #f1f8ff;
+    --dark: #0f172b;
+}
+#destination{
+    text-align: center;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin-right: 25px;
+    padding: 35px 0;
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    outline: none;
+}
+
+
+
+.service-item{
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    transition: 0.5s;
+}
+.service-item:hover{
+    background: var(--primary);
+}
+.service-item *{
+    transition: 0.5s;
+}
+.service-item:hover *{
+    color: var(--light) !important;
+}
+
+.carousel-item {
+    height: 600px;
+    object-fit: cover;
+    
+
+  } 
+  
+  
+.card{
+    float: left;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 10px 10px;
+    border-radius: 20px;
+    
+}
+
+.card img:hover{
+    
+     transform: scale(1.1);
+     
+}
+
+
+#footer{
+    color: white;
+    background-color: black;
+}
